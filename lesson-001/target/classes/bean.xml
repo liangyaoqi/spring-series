@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+    <!--
+    定义一个bean
+    id：bean的唯一标识，可以通过这个标识从容器中获取这个bean对象
+    clss：这个bean的类型，完整类名称
+    -->
+    <bean id="helloSpring" class="com.lyq.HelloSpring"/>
+</beans>
